@@ -1,0 +1,51 @@
+{
+    "name": "python-base-extension-pack",
+    "displayName": "Python Extension Pack (base)",
+    "description": "Visual Studio Code extensions for python development(base).",
+    "version": "0.0.1",
+    "publisher": "Nighthawk",
+    "author": {
+        "name": "Nighthawk",
+        "email": "git@qaq.io"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.76.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/earlytobed/python-base-extension-pack"
+    },
+    "bugs": {
+        "url": "https://github.com/earlytobed/python-base-extension-pack/issues"
+    },
+    "keywords": [
+        "python",
+        "jupyter",
+        "copilot"
+    ],
+    "scripts": {
+        "build": "vsce package"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-toolsai.jupyter",
+        "github.copilot",
+        "visualstudioexptteam.vscodeintellicode",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "formulahendry.code-runner",
+        "codezombiech.gitignore",
+        "xyz.local-history",
+        "gruntfuggly.todo-tree",
+        "mintlify.document",
+        "njpwerner.autodocstring",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vsliveshare.vsliveshare-pack"
+    ]
+}
